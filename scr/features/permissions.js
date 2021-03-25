@@ -16,22 +16,11 @@ module.exports = (client, message, args, Discord) => {
       
         const datos = {
             permisos: {
-                admin:["ADMIN", "MOD+", "MOD+"],
-                config:["ADMIN", "MOD+", "MOD+"],
-                demote:["ADMIN", "MOD+", "MOD+"],
-                image:["ADMIN", "MOD+", "MOD+"],
-                promote:["ADMIN", "MOD+", "MOD+"],
+                admin:["ADMIN", "MOD+", "MOD+"],,
                 reload:["ADMIN", "MOD+", "MOD+"],
-                res:["ADMIN", "MOD+", "MOD+"],
                 sqlshow:["ADMIN", "MOD+", "MOD+"],
-                status:["ADMIN", "MOD+", "MOD+"],
                 stop:["ADMIN", "MOD+", "MOD"],
-                ban:["ADMIN", "MOD+", "MOD+"],
-                clear:["ADMIN", "MOD+", "MOD+"],
-                kick:["ADMIN", "MOD+", "MOD+"],
-                mute:["ADMIN", "MOD+", "MOD+"],
-                unban:["ADMIN", "MOD+", "MOD+"],
-                unban: ["RANK1", "RANK2", "RANK3"]
+                clear:["ADMIN", "MOD+", "MOD+"]
             }
         };
       
