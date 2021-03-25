@@ -102,11 +102,8 @@ try { //LANG
       lang: {
           mensaje_mantenimiento: " Actualmente me encuentro en mantenimiento, intenta mas tarde.",
           mensaje_nopermisos: " no tienes acceso para usar este comando.",
-          mensaje_error: " ese comando no existe o esta mal escrito.",
-          mensaje_demote: " Gracias por formar parte del staff pero tus servicios ya no son necesarios.",
-          swear_error: ' alguna de las palabras que usaste no es permitida en el servidor.'
-      },
-      anti_swear:['PALABRA', 'TEST01', 'ESTO NO SE PUEDE DECIR']
+          mensaje_error: " ese comando no existe o esta mal escrito."
+      }
   };
 
 
@@ -132,20 +129,9 @@ try {//PERMS
   const datos = {
       permisos: {
           admin:["ADMIN", "MOD+", "MOD+"],
-          config:["ADMIN", "MOD+", "MOD+"],
-          image:["ADMIN", "MOD+", "MOD+"],
-          promote:["ADMIN", "MOD+", "MOD+"],
-          reload:["ADMIN", "MOD+", "MOD+"],
-          res:["ADMIN", "MOD+", "MOD+"],
           sqlshow:["ADMIN", "MOD+", "MOD+"],
-          status:["ADMIN", "MOD+", "MOD+"],
           stop:["ADMIN", "MOD+", "MOD"],
-          ban:["ADMIN", "MOD+", "MOD+"],
-          clear:["ADMIN", "MOD+", "MOD+"],
-          kick:["ADMIN", "MOD+", "MOD+"],
-          mute:["ADMIN", "MOD+", "MOD+"],
-          unban:["ADMIN", "MOD+", "MOD+"],
-          unban: ["RANK1", "RANK2", "RANK3"]
+          clear:["ADMIN", "MOD+", "MOD+"]
       }
   };
 
@@ -247,7 +233,7 @@ if(MANT_STATUS == true){
       activity: {
           name: "MANTENIMIENTO",
           type: "STREAMING",
-          url: "https://www.twitch.tv/latingamers_network"
+          url: "https://www.twitch.tv/Ti2Core"
       }
     }); */
     client.user.setPresence({
