@@ -36,9 +36,6 @@ module.exports = (client, message, args, Discord) => {
         +'   7) LA VARIABLE "RemoverDatos" ES PARA BORRAR LOS DATOS DE USUARIO EN LA BASE DE DATOS\n'
         +'      SIMPRE MOSTRARA LOS DATOS DEFAULT, ESTA PUEDE SER DESACTIVADA SI SE DESEA\n'
         +'   8) LA VARIABLE "ErrorReply" ES PARA CONTESTAR AL USUARIO CON "mensaje_error" DE lang.yml\n'
-        +'   9) LOS RANKS STAFF SON PARA LOS COMANDOS "promote" Y "demote", EL MAXIMO ES 5\n'
-        +'   10) LOS RANKS VIP SON PARA LOS COMANDOS "promote" Y "demote", EL MAXIMO ES 3\n'
-        +'       ESTOS DEBEN LLEVAR EL NOMBRE DEL RANGO DONADOR EN DISCORD\n'
 
         +'PASO 2:\n'
         +' CONFIGURAR permissions.yml\n\n'
