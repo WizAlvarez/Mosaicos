@@ -1,0 +1,34 @@
+prefix: '>'
+monitoreo: true
+mantenimiento: false
+ranks_mantenimiento:
+  - ADMIN
+  - ADMIN
+ErrorReply: false
+main_path: ./
+database_path: ./database
+sqlite: true
+MySQL:
+  enable: false
+  host: 01.01.01.01
+  port: 3306
+  user: USER
+  password: PASSWORD
+logdatabase: false
+RemoverDatos: false
+channelsIDS:
+  botchannel: '1234512345'
+  sugchannelID: '1234512345'
+  logschannelID: '123123123'
+  sancioneschannelID: '1234567890'
+autorole: newbie
+muted_role: MUTED
+ranks_STAFF:
+  - ADMIN
+  - MOD+
+  - MOD
+ranks_VIP:
+  - VIP1
+  - VIP2
+  - VIP3
+mensages_vip: true
